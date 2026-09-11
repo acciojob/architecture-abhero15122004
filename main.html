@@ -1,16 +1,136 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        .imageContainer {
+            width: 1100px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            width: 1100px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        .image-cell {
+            text-align: center;
+        }
+
+        .image-cell img {
+            width: 170px;
+            height: 130px;
+            object-fit: cover;
+        }
+
+        .content {
+            width: 600px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        h2 {
+            color: #333;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+
+        <div class="imageContainer">
+            <img
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1100"
+                alt="Modern architectural building"
+            >
+        </div>
+
+        <table>
+            <tr>
+                <td width="200" class="image-cell">
+                    <img
+                        src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=400"
+                        alt="Modern architecture"
+                    >
+                </td>
+
+                <td width="600" class="content">
+                    <h2>Modern Architecture</h2>
+                    <p>
+                        Modern architecture focuses on simplicity, functionality,
+                        clean lines, and the effective use of materials such as
+                        glass, steel, and concrete. It emphasizes practical designs
+                        while creating visually appealing structures.
+                    </p>
+                </td>
+
+                <td width="200" class="image-cell">
+                    <img
+                        src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400"
+                        alt="Modern architectural interior"
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <td width="200" class="image-cell">
+                    <img
+                        src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=400"
+                        alt="Architectural building design"
+                    >
+                </td>
+
+                <td width="600" class="content">
+                    <h2>Architectural Design</h2>
+                    <p>
+                        Architecture combines creativity, engineering, and
+                        functionality to design spaces for people. Good
+                        architectural design considers aesthetics, sustainability,
+                        safety, comfort, and the surrounding environment.
+                    </p>
+                </td>
+
+                <td width="200" class="image-cell">
+                    <img
+                        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400"
+                        alt="Contemporary building interior"
+                    >
+                </td>
+            </tr>
+        </table>
+
+    </div>
 
 </body>
-
 </html>
